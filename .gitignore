@@ -1,0 +1,33 @@
+# Root .gitignore for CricLive
+
+# Backend (Spring Boot)
+backend/target/
+backend/*.log
+backend/.apt_generated
+backend/.classpath
+backend/.factorypath
+backend/.project
+backend/.settings
+backend/.sts4-cache
+
+# Frontend (React + Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+
+# Environment & Secret files
+**/.env
+**/.env.production
+**/.env.local
+
+# IDEs & OS
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+Thumbs.db
